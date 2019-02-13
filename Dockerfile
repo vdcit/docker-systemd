@@ -19,7 +19,7 @@ RUN apt-get update && \
 
 RUN systemctl set-default multi-user.target
 
-COPY setup /sbin/
+#COPY setup /sbin/
 
 STOPSIGNAL SIGRTMIN+3
 
